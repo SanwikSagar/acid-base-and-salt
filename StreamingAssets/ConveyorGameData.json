@@ -8,7 +8,7 @@
     {
       "level": 1,
       "objective_text": "Sort substances into Acid, Base, or Neutral beakers!",
-      "conveyor_speed_modifier": 0.8,
+      "conveyor_speed_modifier": 0.6,
       "total_items_in_level": 10,
       "item_spawn_interval_seconds": 15.0,
       "xp_per_correct": 5,
@@ -108,43 +108,43 @@
       "items": [
         {
           "id": "Apple_Juice",
-          "display_text": "Ph < 7",
+          "display_text": "pH: ~3.0",
           "correct_category_name": "ACID",
           "presentation_mode": "PROPERTY_CUE",
           "reaction_type": "LITMUS_RED"
         },
         {
           "id": "Bleach",
-          "display_text": "Ph > 7",
+          "display_text": "pH: ~12.0",
           "correct_category_name": "BASE",
           "presentation_mode": "PROPERTY_CUE",
           "reaction_type": "LITMUS_BLUE"
         },
         {
           "id": "Distilled_Water",
-          "display_text": "Ph = 7",
+          "display_text": "pH: 7.0",
           "correct_category_name": "NEUTRAL",
           "presentation_mode": "PROPERTY_CUE",
           "hint_text": "No litmus change?"
         },
         {
           "id": "Ammonia",
-          "display_text": "Ph > 7",
+          "display_text": "pH: ~11.0",
           "correct_category_name": "BASE",
           "presentation_mode": "PROPERTY_CUE",
           "reaction_type": "PH_INDICATOR_RED"
         },
         {
           "id": "Antacid",
-          "display_text": "Ph > 7",
+          "display_text": "pH: ~9.0",
           "correct_category_name": "BASE",
           "presentation_mode": "PROPERTY_CUE",
           "reaction_type": "PH_INDICATOR_BLUE"
         },
         {
           "id": "Milk_of_magnesia",
-          "display_text": "Ph = 7",
-          "correct_category_name": "NEUTRAL",
+          "display_text": "pH: ~10.5",
+          "correct_category_name": "BASE",
           "presentation_mode": "PROPERTY_CUE",
           "reaction_type": "PH_INDICATOR_GREEN"
         },
@@ -157,21 +157,21 @@
         },
         {
           "id": "orange_Juice",
-          "display_text": "Ph < 7",
+          "display_text": "pH: ~3.5",
           "correct_category_name": "ACID",
           "presentation_mode": "PROPERTY_CUE",
           "hint_text": "Bitter taste indicator?"
         },
         {
           "id": "Shampoo",
-          "display_text": "Ph = 7",
+          "display_text": "pH: ~7.0",
           "correct_category_name": "NEUTRAL",
           "presentation_mode": "PROPERTY_CUE",
           "reaction_type": "NO_REACTION"
         },
         {
           "id": "Tarmarid_Solution",
-          "display_text": "Ph < 7",
+          "display_text": "pH: ~3.0",
           "correct_category_name": "ACID",
           "presentation_mode": "PROPERTY_CUE",
           "reaction_type": "METAL_BUBBLES"
@@ -182,7 +182,7 @@
     {
       "level": 3,
       "objective_text": "Expert sorting: Identify weak and strong acids/bases by image alone!",
-      "conveyor_speed_modifier": 1,
+      "conveyor_speed_modifier": 0.8,
       "total_items_in_level": 10,
       "item_spawn_interval_seconds": 20.0,
       "xp_per_correct": 8,
